@@ -1,0 +1,148 @@
+body {
+	background-color: DeepSkyBlue;
+	font-family: 'Quicksand', sans-serif;
+	/*font-family: 'Roboto Condensed', sans-serif;*/
+
+}
+
+
+.feedback-section,
+.banner-section,
+.start-section,
+.quiz-section,
+.result-section {
+	margin: 0 auto;
+	text-align: center;
+	 
+}
+
+.banner-section{
+	width:100%;
+	height: 5rem;
+	padding: 1.5em 0em;
+}
+
+.result-section,
+.quiz-section,
+.feedback-section,
+.start-section{
+	width:30em;
+	background-color: white;
+	border-radius: 0.5em;
+	padding: 2em 2em;
+}
+
+
+
+#heading,
+#destination,
+#finalScore,
+h2,
+#option {
+	/* Typographic declarations */
+	text-transform: uppercase;
+
+}
+
+
+#heading {
+	font-size: 2em;
+	color: white;
+	letter-spacing: 0.1em;
+	margin-top: 0.25em;
+	margin-bottom: 0;
+	font-weight: bold;
+
+
+}
+
+p{
+	line-height: 1.25em;
+}
+
+
+#destination,
+#finalScore {
+	-webkit-margin-before: 0.35em;
+    -webkit-margin-after: 0.35em;
+    margin-right: auto;
+    margin-left: auto;
+	/* Typographic declarations */
+	font-weight: bold;
+    font-size: 4em;
+	letter-spacing: 0.1em;
+}
+
+#destination {
+	width: 3em;
+    border-radius: 0.1em;
+	/* Typographic declarations */
+	color: white;
+	background-color: black;
+
+
+
+}
+
+
+
+h2 {
+	font-size: 1.2em;
+	font-weight: bold;
+	margin-bottom: 1em;
+}
+
+
+
+.destinationOptions {
+	display: inline-block;	
+	text-align: left;
+    line-height: 1.5em;
+
+}
+
+
+#feedback {
+	padding-top: 2em;
+}
+
+#start-btn {
+	border-radius: 0.25em;
+	background-color: DeepSkyBlue;
+	border-style: none;
+	padding: 0.5em 1em;
+	cursor: pointer;
+	margin-top:2em; 
+
+	/* Typographic declarations */
+	font-size: 1em;
+	font-weight: 300;
+	color: white;
+
+
+}
+
+#start-btn:hover {
+	background-color: black;
+
+}
+
+
+
+
+/*** Responsive Design ***/
+
+
+@media (max-width: 580px) {
+
+.banner-section{
+	height: 7rem;
+}
+
+
+.result-section,
+.quiz-section,
+.start-section{
+	width: 70%;
+
+}
