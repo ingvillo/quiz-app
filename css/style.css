@@ -35,7 +35,7 @@ body {
 
 
 #heading,
-#destination,
+#question,
 #finalScore,
 h2,
 #option {
@@ -61,7 +61,7 @@ p{
 }
 
 
-#destination,
+#question,
 #finalScore {
 	-webkit-margin-before: 0.35em;
     -webkit-margin-after: 0.35em;
@@ -73,7 +73,7 @@ p{
 	letter-spacing: 0.1em;
 }
 
-#destination {
+#question {
 	width: 3em;
     border-radius: 0.1em;
 	/* Typographic declarations */
@@ -94,7 +94,7 @@ h2 {
 
 
 
-.destinationOptions {
+#choices {
 	display: inline-block;	
 	text-align: left;
     line-height: 1.5em;
@@ -102,11 +102,11 @@ h2 {
 }
 
 
-#feedback {
+#questionNum {
 	padding-top: 2em;
 }
 
-#start-btn {
+#startQuizButton {
 	border-radius: 0.25em;
 	background-color: DeepSkyBlue;
 	border-style: none;
@@ -122,7 +122,7 @@ h2 {
 
 }
 
-#start-btn:hover {
+#startQuizButton:hover {
 	background-color: black;
 
 }
@@ -136,9 +136,15 @@ h2 {
 @media (max-width: 580px) {
 
 .banner-section{
-	height: 7rem;
+	height: 6rem;
 }
 
+.result-section,
+.quiz-section,
+.feedback-section,
+.start-section{
+	padding: 1.5em 1.5em;
+}
 
 .result-section,
 .quiz-section,

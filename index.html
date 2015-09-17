@@ -22,34 +22,31 @@
 		<h2> Are you a world traveller? </h2>
 		<p> Take this quiz to see if you know which airport code takes you to which destination.</p>
 
-		<button id="start-btn">Go to Gate</button>
-
+		<button id="startQuizButton">Go to Gate</button>
 	</section>
-	<br>
+
 	<section class="quiz-section">
-		<h2> You have a ticket to</h2>
-		<h3 id="destination">LAX</h3>
-		<h2> Where are you flying?</h2>
-			<form class="destinationOptions">
-				<input type="radio" id="option" name="option" value="Las Vegas, USA" checked>  Las Vegas, USA
-				<br>
-				<input type="radio" id="option" name="option" value="Los Angeles, USA">  Los Angeles, USA
-				<br>
-				<input type="radio" id="option" name="option" value="La Crosse, USA">  La Crosse, USA
-			</form>
+		<div id="question_wrapper">
+			<h2> You have a ticket to</h2>
+			<h1 id="question">LAX</h1>
+			<h2> Where are you flying?</h2>
+
+			<div id="choices">
+			</div>
+	
+		</div>
 			
-		<div id="feedback">
+		<div id="questionNum">
 			<p>Question X of Y</p>
 		</div>
 	</section>
 	
-	<br>
 	<section class="result-section">
-		<h2 id="result-msg"> Final Score </h2>
+		<h2> Final Score </h2>
 		<h3 id="finalScore"> X / X </h3>
-		<h4> You've been everywhere man! </h4>
+		<p id="result_msg"></p>
 
-		<button id="start-btn">Fly Again</button>
+		<button id="startQuizButton">Fly Again</button>
 	</section>
 	<br>
 </body>
